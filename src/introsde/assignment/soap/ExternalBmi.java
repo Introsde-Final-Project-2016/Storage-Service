@@ -18,7 +18,7 @@ public class ExternalBmi {
 	
 	
      private static URI getBaseURI(Double weight, Double height) {
-              return UriBuilder.fromUri("http://10.218.206.53:2999/introsde/BmiCalculate/"+weight+"/"+height).build();
+              return UriBuilder.fromUri("https://powerful-tor-71241.herokuapp.com/introsde/BmiCalculate/"+weight+"/"+height).build();
           }
 
     // This is taking the BMI information and other related things from Storage layer

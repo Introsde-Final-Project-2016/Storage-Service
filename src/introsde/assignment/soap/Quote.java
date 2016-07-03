@@ -14,7 +14,7 @@ import org.glassfish.jersey.client.ClientConfig;
 public class Quote {
 
 	 private static URI getBaseURI() {
-         return UriBuilder.fromUri("http://10.218.206.53:2999/introsde/Quote/getOne").build();
+         return UriBuilder.fromUri("https://powerful-tor-71241.herokuapp.com/introsde/Quote/getOne").build();
      }
 
 	 // This will take the quote from storege layer
