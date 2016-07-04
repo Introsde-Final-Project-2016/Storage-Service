@@ -4,4 +4,4 @@ This Service collects all kind of necessary data from data-service and external 
 
 For details check wiki page: https://github.com/Introsde-Final-Project-2016/Storage-Service/wiki
 
-The service link: https://afternoon-bayou-12442.herokuapp.com
+Heroku address: https://afternoon-bayou-12442.herokuapp.com
