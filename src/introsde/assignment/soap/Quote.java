@@ -17,7 +17,7 @@ public class Quote {
          return UriBuilder.fromUri("https://powerful-tor-71241.herokuapp.com/introsde/Quote/getOne").build();
      }
 
-	 // This will take the quote from storege layer
+	 // This will take the quote from storage layer
 	 public static String getQuote() throws Exception {
     
 	  ClientConfig clientConfig = new ClientConfig();
@@ -31,7 +31,6 @@ public class Quote {
 				.get();
          		
 		  String body = response.readEntity(String.class);
-		  //JSONArray personArray = new JSONArray(body);
 		  
 		  return body;
 	

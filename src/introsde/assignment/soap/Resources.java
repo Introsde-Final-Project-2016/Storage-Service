@@ -171,8 +171,6 @@ public class Resources {
 	        }    
 	    }
 	    
-	    
-	    // interestingly this does not work 
 	    // update user information
 	    @PUT
 	    @Produces({MediaType.APPLICATION_JSON})

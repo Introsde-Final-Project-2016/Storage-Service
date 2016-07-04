@@ -62,7 +62,6 @@ public class PeopleClient{
         }
         
         
-      //this does not work
         public static void updateUserStatus(int Uid, String name, String lastname, String email, String gender, int age)throws Exception{
         	System.out.println("Updating inside client..."+Uid+"---"+age+"---"+email+"---"+gender+"---"+lastname+"---"+name);
         	Person user = people.readPerson(Uid);
@@ -72,7 +71,7 @@ public class PeopleClient{
         	user.setEmail(email);
         	user.setAge(age);
         	user.setGender(gender);
-        	System.out.println("Updating inside USERRR..."+user.getAge()+"---"+user.getName()+"---");
+        	System.out.println("Updating inside USER..."+user.getAge()+"---"+user.getName()+"---");
         	Holder<Person> huser = new Holder<Person>(user);      
             System.out.println("person name");
             System.out.println("huser lastname  "+huser.value.getLastname());
@@ -81,9 +80,8 @@ public class PeopleClient{
 			people.updatePerson(person);
             people.updatePerson(huser);
             people.updatePerson(huser);
-       
 			System.out.println("Updating done"+huser.value.getLastname());
-			System.out.println("DONEE");
+			System.out.println("DONE");
         }
         
         
